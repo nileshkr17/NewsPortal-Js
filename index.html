@@ -15,7 +15,7 @@
                    <!-- temp fa icon cdn -->
                     <li><span id="date">date</span></li>
                     <li><span id="time">time</span></li>
-                    <!-- <li id="Location"><i class="fas fa-map-marker-alt"></i></li> -->
+                    <li id="Location"><i class="fas fa-map-marker-alt"></i></li>
                 </ul>
             </div>
             <div class="logo">
@@ -59,19 +59,19 @@
  date.innerText = new Date().toDateString();
 time.innerText = new Date().toLocaleTimeString();
 // weather.innerText = new Date().toLocaleTimeString();
-// navigator.geolocation.watchPosition(function(position) {
-//     fetch(`https://geocode.xyz/${position.coords.latitude},${position.coords.longitude}?geoit=json`)
-//     .then(response => response.json())
-//     .then(data => {
-//         loc.innerText = data.city;
-//     })
-//     .catch(err => {
-//         console.error(err);
-//     });
-//   },
-//   function(error) {
-//     loc.innerText = "Location not found";  
-//   });
+navigator.geolocation.watchPosition(function(position) {
+    fetch(`https://geocode.xyz/${position.coords.latitude},${position.coords.longitude}?geoit=json`)
+    .then(response => response.json())
+    .then(data => {
+        loc.innerText = data.city;
+    })
+    .catch(err => {
+        console.error(err);
+    });
+  },
+  function(error) {
+    loc.innerText = "Location not found";  
+  });
 
 
 
