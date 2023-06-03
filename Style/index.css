@@ -13,15 +13,12 @@ nav{
     background-color: #011e29;
     font-family: 'Poppins', sans-serif;
 }
-.container{
-    border: 2px solid white;
-}
+
 .logo img{
     width: 100%
 }
 .left{
     float: left;
-   
 }
 
 .left ul{
@@ -30,15 +27,49 @@ nav{
     align-content: space-between;
     align-items:left;
     list-style: none;
-    color: #ffffff;
-    
-
+    color: #f6f6f6;
 }
 .left ul>li{
-    color: #ffffff;
+    color: #f6f6f6;
     padding: 2px;
 }
 
+.right{
+    float: right;
+}
+/* display fa as line element */
+fa{
+    display: inline-block;
+    color: #f6f6f6;
+    padding: 2px;
+}
+.right ul{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: right;
+    list-style: none;
+    color: #f6f6f6;
+}
+i{
+    color: #f6f6f6;
+    padding: 2px;
+}
+.right ul>li{
+    color: #f6f6f6;
+    padding: 2px;
+}
+.right ul>li>a{
+    color: #f6f6f6;
+    padding: 2px;
+}
+.right ul>li>a:hover{
+    color: #0087ca;
+}
+
+.parent-category{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 .category{
     display: flex;
     flex-direction: row;
@@ -50,6 +81,9 @@ nav{
     padding: 20px;
     background-color: #ffffff;
     font-weight: 600;
+    /* box shadow bottom */
+   
+
 }
 .category ul{
     display: flex;

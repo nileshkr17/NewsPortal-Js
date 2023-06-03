@@ -15,7 +15,7 @@
                    <!-- temp fa icon cdn -->
                     <li><span id="date">date</span></li>
                     <li><span id="time">time</span></li>
-                    <span id="weather">weather</span>
+                    <!-- <li id="Location"><i class="fas fa-map-marker-alt"></i></li> -->
                 </ul>
             </div>
             <div class="logo">
@@ -23,28 +23,30 @@
             </div>
             <div class="right">
                 <ul>
-                    <li><a href="#">Subscribe</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
+                    <i class="fas fa-user"></i><li id="status">Logout</li>
                 </ul>
             </div>
         
     </nav>
-    <div class="category">
-        <!-- all news category in li tags -->
-        <ul>
-            <li>Home</li>
-            <li>India</li>
-            <li>World</li>
-            <li>Business</li>
-            <li>Entertainment</li>
-            <li>Tech</li>
-            <li>Sports</li>
-            <li>LifeStyle</li>
-            <li>Education</li>
-            <li>Photos</li>
-            <li>Videos</li>
-    </div>
+    <div class="parent-category">
+        <div class="category">
+            <!-- all news category in li tags -->
+            <ul>
+                <li>Home</li>
+                <li>India</li>
+                <li>World</li>
+                <li>Business</li>
+                <li>Entertainment</li>
+                <li>Tech</li>
+                <li>Sports</li>
+                <li>LifeStyle</li>
+                <li>Education</li>
+                <li>Photos</li>
+                <li>Videos</li>
+        </div>
+    </div>   
+
+
 </body>
 <script src="./Script/index.js"></script>
 <script>
@@ -52,9 +54,24 @@
  let date = document.getElementById('date');
  let time = document.getElementById('time');
  let weather = document.getElementById('weather');
+ let loc =document.getElementById('Location');
+
  date.innerText = new Date().toDateString();
 time.innerText = new Date().toLocaleTimeString();
-weather.innerText = new Date().toLocaleTimeString();
+// weather.innerText = new Date().toLocaleTimeString();
+// navigator.geolocation.watchPosition(function(position) {
+//     fetch(`https://geocode.xyz/${position.coords.latitude},${position.coords.longitude}?geoit=json`)
+//     .then(response => response.json())
+//     .then(data => {
+//         loc.innerText = data.city;
+//     })
+//     .catch(err => {
+//         console.error(err);
+//     });
+//   },
+//   function(error) {
+//     loc.innerText = "Location not found";  
+//   });
 
 
 
