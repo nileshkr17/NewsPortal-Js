@@ -120,6 +120,12 @@ ul > li:hover::after {
 .category ul > li:hover {
   color: #0087ca;
 }
+.category ul > li > a {
+  color: #000000;
+  padding: 2px;
+}
+
+
 /* responsive */
 @media screen and (max-width: 768px) {
   .category ul {
@@ -127,7 +133,6 @@ ul > li:hover::after {
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
-    /* border: 4px red solid; */
     padding: 1rem;
     display: inline;
   }
@@ -139,10 +144,40 @@ ul > li:hover::after {
     /* margin: 20px 15px 10px 15px; */
    padding-left: 8px;
   }
+
+ nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+ }
+  .logo img {
+    width: 100%;
+  }
+  .left ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      color: #f6f6f6;
+  }
+  
+  i{
+      color: #f6f6f6;
+      padding: 2px;
+  }
+  
+
+  
+#Location{
+    display: none;}
+
 }
 
+
 /* responsive for laptop */
-/* 
+
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .category ul{
         width: 100%;
@@ -177,4 +212,5 @@ ul > li:hover::after {
     .category ul>li:hover{
         color: #0087ca;
     }
-} */
+} 
+
