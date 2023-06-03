@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News|Home</title>
+    <title>HindustanTimes</title>
+    <link rel="stylesheet" href="/Style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <nav>
+            <div class="left">
+                <ul>
+                   <!-- temp fa icon cdn -->
+                    <li><span id="date">date</span></li>
+                    <li><span id="time">time</span></li>
+                    <span id="weather">weather</span>
+                </ul>
+            </div>
+            <div class="logo">
+                    <img src="/Assets/ht-logo.svg" alt="logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Subscribe</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+        
+    </nav>
+    <div class="category">
+        <!-- all news category in li tags -->
+        <ul>
+            <li>Home</li>
+            <li>India</li>
+            <li>World</li>
+            <li>Business</li>
+            <li>Entertainment</li>
+            <li>Tech</li>
+            <li>Sports</li>
+            <li>LifeStyle</li>
+            <li>Education</li>
+            <li>Photos</li>
+            <li>Videos</li>
+    </div>
 </body>
+<script src="./Script/index.js"></script>
+<script>
+//    simple javascript to get date time 
+ let date = document.getElementById('date');
+ let time = document.getElementById('time');
+ let weather = document.getElementById('weather');
+ date.innerText = new Date().toDateString();
+time.innerText = new Date().toLocaleTimeString();
+weather.innerText = new Date().toLocaleTimeString();
+
+
+
+
+</script>
 </html>
