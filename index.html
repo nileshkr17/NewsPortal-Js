@@ -63,35 +63,8 @@
         </div>
         <div id="gold">Gold</div>
     </div>
-
+    
+   
 </body>
 <script src="./Script/index.js"></script>
-<script>
-//    simple javascript to get date time 
- let date = document.getElementById('date');
- let time = document.getElementById('time');
- let weather = document.getElementById('weather');
- let loc =document.getElementById('Location');
-
- date.innerText = new Date().toDateString();
-time.innerText = new Date().toLocaleTimeString();
-// weather.innerText = new Date().toLocaleTimeString();
-navigator.geolocation.watchPosition(function(position) {
-    fetch(`https://geocode.xyz/${position.coords.latitude},${position.coords.longitude}?geoit=json`)
-    .then(response => response.json())
-    .then(data => {
-        loc.innerText = data.city;
-    })
-    .catch(err => {
-        console.error(err);
-    });
-  },
-  function(error) {
-    loc.innerText = "Location not found";  
-  });
-
-
-
-
-</script>
 </html>

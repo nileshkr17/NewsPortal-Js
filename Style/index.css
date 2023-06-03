@@ -5,6 +5,20 @@
   font-family: Lato, sans-serif;
   text-decoration: none;
 }
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #011e29;
+  color: #f6f6f6;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.8rem;
+}
+/* nav */
 nav {
   display: flex;
   position: sticky;
