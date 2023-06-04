@@ -46,20 +46,26 @@ To use this project, follow these steps:
 <img src="https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/78a9c1d0-3b75-4f93-a36c-240ace7def8e" alt="Mobile Version" width="300" />
 <br>
 
-![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/81f47413-cb24-4862-89e3-96cfc28e98d3)
-
+<img src="https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/81f47413-cb24-4862-89e3-96cfc28e98d3" alt="Mobile Version" width="300" />
 <br>
 
-![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/bb9375af-ebf2-4b88-9f1f-ef68ade3cada)
+<img src="https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/bb9375af-ebf2-4b88-9f1f-ef68ade3cada" alt="Mobile Version" width="300" />
+<br>
+
 
 
 ### Laptop Version
 
-![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/435663c2-1c6c-4520-969e-fc23622a127f)
+<img src="https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/435663c2-1c6c-4520-969e-fc23622a127f" alt="laptop Version" width="600" />
+
+
 <br>
-![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/2c0a6f81-bb21-4675-bfcf-1b444c70e898)
+
+<img src="https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/2c0a6f81-bb21-4675-bfcf-1b444c70e898" alt="laptop Version" width="600" />
+
 <br>
-![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/6babe3ec-0b46-417c-bb36-9779447a2ff0)
+
+<img src="https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/6babe3ec-0b46-417c-bb36-9779447a2ff0" alt="laptop Version" width="600" />
 
 
 ### Data
