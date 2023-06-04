@@ -42,12 +42,12 @@ To use this project, follow these steps:
 ## Screenshots 📷
 
 ### Mobile Version
-
-![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/78a9c1d0-3b75-4f93-a36c-240ace7def8e)
-
+<br>
+<img src="https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/78a9c1d0-3b75-4f93-a36c-240ace7def8e" alt="Mobile Version" width="300" />
 <br>
 
 ![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/81f47413-cb24-4862-89e3-96cfc28e98d3)
+
 <br>
 
 ![image](https://github.com/nileshkr17/NewsPortal-Js/assets/77370375/bb9375af-ebf2-4b88-9f1f-ef68ade3cada)
