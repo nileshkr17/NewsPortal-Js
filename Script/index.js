@@ -1,4 +1,3 @@
-// check login status
 const userid = localStorage.getItem("userid");
 const logout = document.getElementById("logout");
 const id = document.getElementById("id");
@@ -126,7 +125,7 @@ fetch(
     }
 
     data.articles.forEach(item => {
-      console.log(item.url);
+      // console.log(item.url);
 
       news_box.innerHTML += `
         <div id="top-article">
@@ -146,7 +145,6 @@ fetch(
 
   let date = document.getElementById('date');
  let time = document.getElementById('time');
- let weather = document.getElementById('weather');
  let loc =document.getElementById('Location');
 
  date.innerText = new Date().toDateString();
@@ -164,4 +162,6 @@ navigator.geolocation.watchPosition(function(position) {
   },
   function(error) {
     loc.innerText = "Location not found"; 
+    console.log(error);
   });
+

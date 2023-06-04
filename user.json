@@ -31,6 +31,12 @@
       "name": "sonalii",
       "email": "sonali@sit.com",
       "password": "qwerty"
+    },
+    {
+      "id": 1685876776019,
+      "name": "sahil",
+      "email": "firox54@pyadu.com",
+      "password": "1234"
     }
   ]
 }
