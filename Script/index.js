@@ -67,7 +67,7 @@ fetch(
 
       const content3 = document.createElement("div");
       content3.addEventListener("click", () => {
-        window.location.href = `${data.articles[0].url}`;
+        window.location.href = `${data.articles[2].url}`;
       });
       content3.style.cursor = "pointer";
       content3.id = "content3";
@@ -86,7 +86,7 @@ fetch(
 
       const content4 = document.createElement("div");
       content4.addEventListener("click", () => {
-        window.location.href = `${data.articles[0].url}`;
+        window.location.href = `${data.articles[3].url}`;
       });
       content4.style.cursor = "pointer";
       content4.id = "content4";
@@ -105,7 +105,7 @@ fetch(
 
       const content5 = document.createElement("div");
       content5.addEventListener("click", () => {
-        window.location.href = `${data.articles[0].url}`;
+        window.location.href = `${data.articles[4].url}`;
       });
       content5.style.cursor = "pointer";
       content5.id = "content5";
@@ -126,18 +126,20 @@ fetch(
     }
 
     data.articles.forEach(item => {
-      // console.log(item.title);
+      console.log(item.url);
 
       news_box.innerHTML += `
         <div id="top-article">
+        <a href="${item.url}">
         <img src="${item.urlToImage}" id="image">
+        </a>
         <h3 id="title">"${item.title}"</h3>
         <p id="date">Updated at "${item.publishedAt}"</p>
         <p id="desc">"${item.description}"</p>
-        <p id="author"><a href=""${item.url}"">Source</a></p>
         </div>`;
       news_box.style.gap = "20px";
       news_box.style.padding = "20px";
+      
     });
   });
 

@@ -23,12 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background:url(../Assets/login-bg.png.crdownload);
+    /* background-size: */
+    /* background:url(../Assets/login-check.png)center ; */
     
 }
 .left img{
-    width: 80%;
-    height: 40%;
+    width: 100%;
+    height: 100%;
     object-fit: fill;
 }
 .right{
@@ -130,8 +131,9 @@
         height: 50%;
     }
     .left img{
-        width: 60%;
-        height: 60%;
+        width: 100%;
+        /* border: red solid 3px; */
+        /* height: 60%; */
         object-fit: fill;
     }
     .right{
