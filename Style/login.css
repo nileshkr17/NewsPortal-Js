@@ -42,15 +42,6 @@
     /* blur bg image */
    
 }
-.right form{
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
 .form-content{
     width: 100%;
     height: 100%;
@@ -80,6 +71,16 @@
     font-weight: 500;
     color: #333;
 }
+.right form{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 .form-content input:focus{
     border-bottom: 1px solid #333;
